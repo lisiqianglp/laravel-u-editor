@@ -1,33 +1,23 @@
 {
-  "name": "lisiqianglp/laravel-u-editor",
-  "description": "UEditor for laravel5. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
-  "keywords": [
-    "laravel",
-    "ueditor",
-    "laravel-u-editor",
-    "laravel5 web text editor",
-    "lisiqianglp",
-    "steven yang"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Steven Yang",
-      "email": "yqmking@163.com"
-    }
-  ],
-
-  "require": {
-    "php": ">=5.4.0",
-    "ext-fileinfo": "*",
-    "illuminate/support": "7.*",
-    "qiniu/php-sdk": "7.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "lisiqianglp\\UEditor\\": "src/"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "name": "lisiqianglp/laravel-u-editor",
+    "description": "UEditor generator",
+    "keywords": ["Tree", "Node", "generator"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "betterde",
+            "email": "george@betterde.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5|^6|^7|^8|^9|^10",
+        "illuminate/database": "^5|^6|^7|^8|^9|^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "lisiqianglp\\UEditor\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
