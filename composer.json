@@ -6,7 +6,7 @@
     "ueditor",
     "laravel-u-editor",
     "laravel5 web text editor",
-    "stevenyangecho",
+    "lisiqianglp",
     "steven yang"
   ],
   "license": "MIT",
@@ -25,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Stevenyangecho\\UEditor\\": "src/"
+      "lisiqianglp\\UEditor\\": "src/"
     }
   },
   "minimum-stability": "dev",
